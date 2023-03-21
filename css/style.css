@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: 1px solid red; */
+}
+
+body {  
+  background-color: #fce1cb;
+  font-family: 'segoe ui';
+}
+  
+#logo{
+  width: 35%;
+}
+
+.container{
+  margin-top: 120px;
+}
+
+.container h1, h2, h3, h4, label{
+  color: #4e383d;
+}
+
+
+.nav-link{
+    color: #4e383d;
+    font-size: 20px;
+}
+
+.nav-item > a:hover {
+  background-color: #febeac;
+}
+
+.nav-item > #nav-check {
+  display: none;
+}
+
+.text-card h2,p{
+    color: #4e383d;
+    text-align: justify;
+}
+
+.footer{
+  background-color: #febeac;
+}
+
+/* Galería */
+
+.gallery {
+	display: flex;
+	flex-wrap: wrap;	
+	margin: -1rem -1rem;
+}
+
+.gallery-item {	
+	flex: 1 0 24rem;
+	margin: 1rem;
+	box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
+	overflow: hidden;
+}
+
+.gallery-image {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transition: transform 400ms ease-out;
+}
+
+.gallery-image:hover {
+	transform: scale(1.15);
+}
+
+@supports (display: grid) {
+	.gallery {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
+		grid-gap: 2rem;
+	}
+
+	.gallery,
+	.gallery-item {
+		margin: 0;
+	}
+}
+
+.div-dog-contacto{
+  width: 10%;
+}
+
+/* inicio - Sección contacto */
+.formulario{
+  background-color: #96b5a6;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+
+  .container{
+    margin-top: 150px;
+  }
+  .div-dog-contacto{
+    width: 30%;
+  }
+}
+/* fin - Sección contacto */
