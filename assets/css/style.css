@@ -32,6 +32,9 @@ body {
   color: #4e383d;
   text-align: justify; }
 
+.navbar {
+  background-color: #96b5a6; }
+
 .footer {
   background-color: #febeac; }
   .footer .firma {
