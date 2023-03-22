@@ -34,6 +34,8 @@ body {
 
 .footer {
   background-color: #febeac; }
+  .footer .firma {
+    background-color: rgba(0, 0, 0, 0.2); }
 
 /* Galería */
 .gallery {
@@ -79,12 +81,15 @@ body {
   display: table;
   clear: both; }
 
+.div-dog-contacto {
+  width: 10%; }
+
 @media screen and (max-width: 600px) {
   .column {
     width: 100%; }
   .container {
     margin-top: 150px; }
   .div-dog-contacto {
-    width: 10%; } }
+    width: 30%; } }
 
 /* fin - Sección contacto */
