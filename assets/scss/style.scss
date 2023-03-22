@@ -3,6 +3,7 @@ $color-container: #4e383d;
 $color-background: #febeac;
 $color-formulario: #96b5a6;
 $color-body: #fce1cb;
+$color-navbar: #96b5a6;
 
 *{
     margin: 0;
@@ -48,7 +49,7 @@ body {
 }
 
 .navbar{
-    background-color: #96b5a6;
+    background-color: $color-navbar;
 }
 
 
