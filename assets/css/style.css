@@ -40,6 +40,15 @@ body {
   .footer .firma {
     background-color: rgba(0, 0, 0, 0.2); }
 
+/* Carrusel */
+.carousel .carousel-item {
+  height: 400px; }
+  .carousel .carousel-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 300px; }
+
 /* Galería */
 .gallery {
   display: flex;
